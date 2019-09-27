@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave Trivia</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container"> 
+
+    <div class="jumbotron">
+        <h1 class="display-4">Dave Trivia</h1>
+        <p class="lead">How much do you know about your favorite Daves? Welcome to Dave Trivia, where it's all Dave every day!</p>
+        <hr class="my-4">
+        <p>It's time to put your Dave knowledge to the test!</p>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-12">
+
+            <!-- This is where most of my text comes and goes -->
+            <div class="card">
+                <div class="card-body">
+                    <p id="timeDisplay"></p>     
+                    <p id="questionText">What are you waiting for? Let's go!</p>
+                    <p id="correctAnswers" class="postText inGameOnly"></p>
+                    <p id="incorrectAnswers" class="postText inGameOnly"></p>
+                    <button type="button" class="btn btn-dark" id="startButton">Click Here to Start!</button>
+                </div> 
+             </div>
+
+
+            <!--  these are all hidden at the start of the game  -->
+            <div class="card gameCard">
+                <div class="card-body">
+                    <button type="button" class="btn btn-dark" id="buttonA">A)</button>
+                    <i id="answerA">some text</i>       
+                </div> 
+            </div>
+
+            <div class="card gameCard">
+                <div class="card-body">
+                    <button type="button" class="btn btn-dark" id="buttonB">B)</button>
+                    <i id="answerB">some text</i>        
+                </div> 
+            </div>
+
+
+            <div class="card gameCard">
+                <div class="card-body">
+                    <button type="button" class="btn btn-dark" id="buttonC">C)</button>
+                    <i id="answerC">some text</i>       
+                </div> 
+            </div>
+
+
+            <div class="card gameCard">
+                <div class="card-body">
+                    <button type="button" class="btn btn-dark" id="buttonD">D)</button>
+                    <i id="answerD">some text</i>       
+                </div> 
+            </div>
+
+        </div>
+      </div>
+
+    <!-- Decorative Daves -->
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="assets/images/Bautista.jpg" class="card-img-top" alt="Dave Bautista">
+            </div>
+        </div>
+  
+
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="assets/images/Franco.jpg" class="card-img-top" alt="Dave Franco">
+            </div>
+         </div>
+
+ 
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="assets/images/Grohl.jpg" class="card-img-top" alt="Dave Grohl">
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <img src="assets/images/Movie.jpg" class="card-img-top" alt="Meet Dave">    
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+      
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
